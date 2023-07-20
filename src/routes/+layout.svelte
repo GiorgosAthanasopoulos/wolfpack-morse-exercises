@@ -38,6 +38,13 @@
 		padding-bottom: 5px;
 	}
 
+	:global(table, table th, table td) {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2px;
+		border: 1px solid black;
+	}
+
 	:global(ul, ol) {
 		display: inline-block;
 		text-align: left;
