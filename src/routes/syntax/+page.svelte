@@ -29,3 +29,7 @@
 	<Reports />
 	<BackToTopButton />
 </div>
+
+<head>
+	<title>Syntax - Wolfpack Morse Exercises</title>
+</head>

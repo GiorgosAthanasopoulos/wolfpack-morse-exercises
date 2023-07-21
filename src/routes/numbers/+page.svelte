@@ -24,3 +24,7 @@
 	<h1>Numbers</h1>
 	<UnderConstruction />
 </div>
+
+<head>
+	<title>Numbers - Wolfpack Morse Exercises</title>
+</head>

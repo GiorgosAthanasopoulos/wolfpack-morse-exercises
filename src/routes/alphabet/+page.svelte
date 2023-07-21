@@ -38,3 +38,7 @@
 	<h1>Alphabet</h1>
 	<UnderConstruction />
 </div>
+
+<head>
+	<title>Alphabet - Wolfpack Morse Exercises</title>
+</head>
