@@ -1,11 +1,58 @@
+<script lang="ts">
+	import {
+		_alphabetPage,
+		_numbersPage,
+		_sourceCodeLink,
+		_syntaxPage,
+		_wordsSentencesPage,
+		_wpSentencesAdvancedPage,
+		_wpSentencesSimplePage
+	} from './store';
+
+	let alphabetPage: string;
+	_alphabetPage.subscribe((v) => {
+		alphabetPage = v;
+	});
+
+	let numbersPage: string;
+	_numbersPage.subscribe((v) => {
+		numbersPage = v;
+	});
+
+	let wordsSentencesPage: string;
+	_wordsSentencesPage.subscribe((v) => {
+		wordsSentencesPage = v;
+	});
+
+	let wpSentencesSimplePage: string;
+	_wpSentencesSimplePage.subscribe((v) => {
+		wpSentencesSimplePage = v;
+	});
+
+	let wpSentencesAdvancedPage: string;
+	_wpSentencesAdvancedPage.subscribe((v) => {
+		wpSentencesAdvancedPage = v;
+	});
+
+	let syntaxPage: string;
+	_syntaxPage.subscribe((v) => {
+		syntaxPage = v;
+	});
+
+	let sourceCodeLink: string;
+	_sourceCodeLink.subscribe((v) => {
+		sourceCodeLink = v;
+	});
+</script>
+
 <nav>
 	<a href="/">Home</a>
-	<a href="/alphabet">Alphabet</a>
-	<a href="/numbers">Numbers</a>
-	<a href="/words-sentences">Words/Sentences</a>
-	<a href="/wp-sentences-simple">WP sentences (simple)</a>
-	<a href="/wp-sentences-advanced">WP sentences (advanced)</a>
-	<a href="/syntax">Syntax</a>
+	<a href={alphabetPage}>Alphabet</a>
+	<a href={numbersPage}>Numbers</a>
+	<a href={wordsSentencesPage}>Words/Sentences</a>
+	<a href={wpSentencesSimplePage}>WP sentences (simple)</a>
+	<a href={wpSentencesAdvancedPage}>WP sentences (advanced)</a>
+	<a href={syntaxPage}>Syntax</a>
 </nav>
 <hr />
 
@@ -15,11 +62,7 @@
 <footer>
 	<h2>
 		Created with <p style="display: inline; color: black;">&#10084</p>
-		by georglasen(<a
-			target="_blank"
-			href="https://github.com/giorgosathanasopoulos/wolfpack-morse-exercises"
-			>Website Source Code</a
-		>).
+		by georglasen(<a target="_blank" href={sourceCodeLink}>Website Source Code</a>).
 	</h2>
 </footer>
 

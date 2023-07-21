@@ -1,20 +1,41 @@
+<script lang="ts">
+	import { _imagesFolder, _smallImageSize } from '../routes/store';
+
+	let imagesFolder;
+	_imagesFolder.subscribe((v) => {
+		imagesFolder = v;
+	});
+	let exercisesSrc = imagesFolder + 'exercises.jpg';
+
+	let imageSize: number;
+	_smallImageSize.subscribe((v) => {
+		imageSize = v;
+	});
+
+	let alphabetPage = '/alphabet';
+	let numbersPage = '/numbers';
+	let wordsSentencesPage = '/words-sentences';
+	let wpSentencesSimplePage = '/wp-sentences-simple';
+	let wpSentencesAdvancedPage = '/wp-sentences-advanced';
+</script>
+
 <div>
-	<h2><img src="exercises.jpg" alt="Exercises" width="32" height="32" /> Exercises</h2>
+	<h2><img src={exercisesSrc} alt="Exercises" width={imageSize} height={imageSize} /> Exercises</h2>
 	<ol>
 		<li>
-			<a href="/alphabet">Alphabet,</a>
+			<a href={alphabetPage}>Alphabet,</a>
 		</li>
 		<li>
-			<a href="/numbers">Numbers,</a>
+			<a href={numbersPage}>Numbers,</a>
 		</li>
 		<li>
-			<a href="/words-sentences">Words/Sentences,</a>
+			<a href={wordsSentencesPage}>Words/Sentences,</a>
 		</li>
 		<li>
-			<a href="/wp-sentences-simple">WP Sentences (simple),</a>
+			<a href={wpSentencesSimplePage}>WP Sentences (simple),</a>
 		</li>
 		<li>
-			<a href="/wp-sentences-advanced">WP Sentences (advanced).</a>
+			<a href={wpSentencesAdvancedPage}>WP Sentences (advanced).</a>
 		</li>
 	</ol>
 </div>

@@ -1,11 +1,19 @@
+<script lang="ts">
+	import { _foxGuideLink } from '../../store';
+
+	let foxGuideLink: string;
+	_foxGuideLink.subscribe((v) => {
+		foxGuideLink = v;
+	});
+</script>
+
 <div>
 	<h2>Positioning Phrases</h2>
 	<p>The following table assumes your boat no is 96 (U96).</p>
 	<p>
 		If you re not sure what some of these mean (AF5612, LXX, RXXX, HXXX) then check out the <a
 			target="_blank"
-			href="https://steamcommunity.com/sharedfiles/filedetails/?id=2842875340"
-			>Steam Radio Guide - Reporting/Requesting Positioning section (by Fox)</a
+			href={foxGuideLink}>Steam Radio Guide - Reporting/Requesting Positioning section (by Fox)</a
 		>.
 	</p>
 	<table>

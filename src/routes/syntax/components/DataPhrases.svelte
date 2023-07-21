@@ -1,3 +1,17 @@
+<script lang="ts">
+	import { _foxCourseLink, _foxSpeedLink } from '../../store';
+
+	let foxCourseLink: string;
+	_foxCourseLink.subscribe((v) => {
+		foxCourseLink = v;
+	});
+
+	let foxSpeedLink: string;
+	_foxSpeedLink.subscribe((v) => {
+		foxSpeedLink = v;
+	});
+</script>
+
 <div>
 	<h1>Requesting/Reporting Data</h1>
 	<p>The following table assumes your boat no is 96 (U96).</p>
@@ -6,14 +20,10 @@
 	</p>
 	<ul>
 		<li>
-			<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2553649456"
-				>Course Determination Guide (by Fox).</a
-			>
+			<a target="_blank" href={foxCourseLink}>Course Determination Guide (by Fox).</a>
 		</li>
 		<li>
-			<a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2595952369"
-				>Speed Determination Guide (by Fox).</a
-			>
+			<a target="_blank" href={foxSpeedLink}>Speed Determination Guide (by Fox).</a>
 		</li>
 	</ul>
 	<table>
