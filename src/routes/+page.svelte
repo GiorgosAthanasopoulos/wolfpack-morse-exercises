@@ -20,7 +20,7 @@
 </script>
 
 <div>
-	<img src={morseCodeSrc} alt="Morse Code CheatSheet" width={imageSize} height={imageSize} />
+	<img src={morseCodeSrc} alt="Morse Code Cheat Sheet" width={imageSize} height={imageSize} />
 	<h1>Wolfpack Morse Exercises</h1>
 
 	<Exercises />
