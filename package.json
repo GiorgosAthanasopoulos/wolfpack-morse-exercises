@@ -1,9 +1,12 @@
 {
-	"name": "wolfpack-morse-exercises-svelte",
-	"version": "0.0.1",
-	"private": true,
+	"name": "wolfpack-morse-exercises",
+	"version": "0.0.3",
+	"private": false,
 	"scripts": {
 		"dev": "vite dev",
+
+		"prebuild": "npm run test",
+
 		"build": "vite build",
 		"preview": "vite preview",
 		"test": "npm run test:integration && npm run test:unit",
