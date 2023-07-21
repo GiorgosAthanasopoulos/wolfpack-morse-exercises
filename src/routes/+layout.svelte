@@ -62,7 +62,7 @@
 <footer>
 	<h2>
 		Created with <p style="display: inline; color: black;">&#10084</p>
-		by georglasen(<a target="_blank" href={sourceCodeLink}>Website Source Code</a>).
+		by georglasen (<a target="_blank" href={sourceCodeLink}>Website Source Code</a>).
 	</h2>
 </footer>
 
