@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { _imagesFolder, _largeImageSize } from '../store';
+	import { _largeImageSize } from './../store.js';
+	import { _imagesFolder, _mediumImageSize } from '../store';
+	import UnderConstruction from '../../components/UnderConstruction.svelte';
 
 	let imagesFolder;
 	_imagesFolder.subscribe((v) => {
@@ -7,9 +9,9 @@
 	});
 	let morseCodeSrc = imagesFolder + 'morse-code.png';
 
-	let imageSize: number;
-	_largeImageSize.subscribe((v) => {
-		imageSize = v;
+	let mediumImageSize: number;
+	_mediumImageSize.subscribe((v) => {
+		mediumImageSize = v;
 	});
 
 	/* ===!=== */
@@ -30,8 +32,9 @@
 	<img
 		src={morseCodeSrc}
 		alt="Morse Code Alphabet CheatSheet"
-		width={imageSize}
-		height={imageSize}
+		width={mediumImageSize}
+		height={mediumImageSize}
 	/>
 	<h1>Alphabet</h1>
+	<UnderConstruction />
 </div>

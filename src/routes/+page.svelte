@@ -5,7 +5,7 @@
 	import DontKnowMorseCodeYet from '../components/DontKnowMorseCodeYet.svelte';
 	import Contact from '../components/Contact.svelte';
 	import IndexFootNotes from './../components/IndexFootNotes.svelte';
-	import { _imagesFolder, _largeImageSize } from './store';
+	import { _imagesFolder, _mediumImageSize } from './store';
 
 	let imagesFolder;
 	_imagesFolder.subscribe((v) => {
@@ -14,7 +14,7 @@
 	let morseCodeSrc = imagesFolder + 'morse-code.svg';
 
 	let imageSize: number;
-	_largeImageSize.subscribe((v) => {
+	_mediumImageSize.subscribe((v) => {
 		imageSize = v;
 	});
 </script>

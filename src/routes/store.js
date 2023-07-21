@@ -32,7 +32,8 @@ export const _prosignsWikiLink = readable('https://en.wikipedia.org/wiki/Prosign
 export const _discordUsername = readable('georglassen');
 
 export const _smallImageSize = readable(32);
-export const _largeImageSize = readable(96);
+export const _mediumImageSize = readable(96);
+export const _largeImageSize = readable(256);
 
 export const _alphabetPage = readable('/alphabet');
 export const _numbersPage = readable('/numbers');

@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { _imagesFolder, _largeImageSize } from '../store';
+	import UnderConstruction from '../../components/UnderConstruction.svelte';
+	import { _imagesFolder, _mediumImageSize } from '../store';
 
 	let imagesFolder;
 	_imagesFolder.subscribe((v) => {
@@ -8,7 +9,7 @@
 	let morseCodeNumbersSrc = imagesFolder + 'morse-code-numbers.png';
 
 	let imageSize: number;
-	_largeImageSize.subscribe((v) => {
+	_mediumImageSize.subscribe((v) => {
 		imageSize = v;
 	});
 </script>
@@ -21,4 +22,5 @@
 		height={imageSize}
 	/>
 	<h1>Numbers</h1>
+	<UnderConstruction />
 </div>
