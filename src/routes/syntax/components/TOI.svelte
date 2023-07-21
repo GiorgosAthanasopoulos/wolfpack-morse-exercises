@@ -15,7 +15,7 @@
 			<td>AS</td>
 			<td>DE 96</td>
 			<td>TOI 0050</td>
-			<td>K</td><td /><td
+			<td>K</td><td
 				>To All Stations,<br />From (U)96,<br />Time of Impact is 0050,<br />Awaiting reply.</td
 			>
 		</tr>

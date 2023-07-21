@@ -39,8 +39,8 @@
 			<td />
 			<td />
 			<td
-				>Crash Dive from 96 (we use last digit to identify sender). We don't follow the syntax
-				because we're in an emergency situation and we'll soon lose radio because of dive.</td
+				>Crash Dive from 96 (we use last digit to identify sender).<br /> We don't follow the syntax
+				because we're in an emergency situation<br /> and we'll soon lose radio because of dive.</td
 			>
 		</tr>
 		<tr>
