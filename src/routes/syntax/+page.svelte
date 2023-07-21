@@ -27,7 +27,6 @@
 	<DataPhrases />
 	<Toi />
 	<Reports />
-	<BackToTopButton />
 </div>
 
 <head>

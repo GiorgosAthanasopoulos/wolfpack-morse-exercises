@@ -1,4 +1,6 @@
 <script lang="ts">
+	import BackToTopButton from '../components/BackToTopButton.svelte';
+
 	import {
 		_alphabetPage,
 		_numbersPage,
@@ -58,6 +60,7 @@
 
 <slot />
 
+<BackToTopButton />
 <hr />
 <footer>
 	<h2>
