@@ -2,7 +2,7 @@
 
 const config /*: PlaywrightTestConfig*/ = {
 	webServer: {
-		command: 'npm run preview',
+		command: 'npx vite build && npm run preview',
 		port: 4173
 	},
 	testDir: 'tests',
