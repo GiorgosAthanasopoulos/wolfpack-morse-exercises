@@ -1,6 +1,13 @@
 <script>
+	import { onMount } from 'svelte';
+
 	export let showOnPx = 150;
 	let hidden = true;
+	let first = true;
+
+	onMount(() => {
+		handleOnScroll();
+	});
 
 	const goToTop = () => {
 		document.body.scrollIntoView();
@@ -11,10 +18,11 @@
 	};
 
 	const handleOnScroll = () => {
-		if (!scrollContainer()) {
+		if (!scrollContainer() && !first) {
 			return;
 		}
 
+		first = false;
 		if (scrollContainer().scrollTop > showOnPx) {
 			hidden = false;
 		} else {
