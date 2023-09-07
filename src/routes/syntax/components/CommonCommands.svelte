@@ -1,4 +1,4 @@
-<div>
+<div id="common-commands">
 	<h2>Common Commands</h2>
 	<table>
 		<tr>

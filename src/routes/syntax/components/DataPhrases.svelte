@@ -12,7 +12,7 @@
 	});
 </script>
 
-<div>
+<div id="data-phrases">
 	<h1>Requesting/Reporting Data</h1>
 	<p>The following table assumes your boat no is 96 (U96).</p>
 	<p>

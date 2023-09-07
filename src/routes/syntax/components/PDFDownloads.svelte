@@ -12,7 +12,8 @@
 	});
 </script>
 
-<div>
+<div id="pdf-downloads">
+	<h2>Pdf Downloads</h2>
 	<p>
 		If you want to read/save the following/similar information in pdf format here are download links
 		(<strong>Download button top-right to save</strong>):

@@ -1,4 +1,4 @@
-<div>
+<div id="reports">
 	<h2>Reports</h2>
 	<p>The following table assumes your boat no is 96 (U96).</p>
 	<table>

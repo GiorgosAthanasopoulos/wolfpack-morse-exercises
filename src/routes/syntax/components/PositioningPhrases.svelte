@@ -7,7 +7,7 @@
 	});
 </script>
 
-<div>
+<div id="positioning-phrases">
 	<h2>Positioning Phrases</h2>
 	<p>The following table assumes your boat no is 96 (U96).</p>
 	<p>

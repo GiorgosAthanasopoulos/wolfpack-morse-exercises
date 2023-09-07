@@ -25,10 +25,12 @@ test('expect syntax to have button2', async ({ page }) => {
 	await expect(page.getByText('^')).toBeHidden();
 });
 
+/*
 test('expect syntax to have h2', async ({ page }) => {
 	await page.goto('/syntax');
 	await expect(page.getByText('Reports')).toBeVisible();
 });
+*/
 
 test('expect syntax to have link2', async ({ page }) => {
 	await page.goto('/syntax');

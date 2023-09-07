@@ -39,7 +39,7 @@
 	});
 </script>
 
-<div>
+<div id="sources">
 	<h2>Additional Sources</h2>
 	<ul>
 		<li>

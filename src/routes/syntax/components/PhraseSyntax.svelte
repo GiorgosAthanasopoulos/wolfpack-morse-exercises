@@ -1,4 +1,4 @@
-<div>
+<div id="phrase-syntax">
 	<h2>Phrase Syntax</h2>
 	<p>The following table assumes your boat no is 96 (U96).</p>
 	<p><strong>RECIPIENT -> SENDER -> MESSAGE -> TERMINATOR.</strong></p>
