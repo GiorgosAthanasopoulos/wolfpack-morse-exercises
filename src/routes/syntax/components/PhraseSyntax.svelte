@@ -20,10 +20,10 @@
 		<tr>
 			<td>AS</td>
 			<td>DE 96</td>
-			<td>POS L068 R323</td>
+			<td>POS AF5781 L068 R323</td>
 			<td>AR</td>
 			<td
-				>To All Stations,<br />From (U)96,<br />Our position is L068 R323,<br />No reply needed.</td
+				>To All Stations,<br />From (U)96,<br />Our position is AF5781 L068 R323,<br />No reply needed.</td
 			>
 		</tr>
 		<tr>

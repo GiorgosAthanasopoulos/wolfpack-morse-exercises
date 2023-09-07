@@ -39,10 +39,10 @@
 		<tr>
 			<td>96</td>
 			<td>DE 552</td>
-			<td>ACK TOI 0050 X REQ DELAY</td>
+			<td>REQ DELAY 10M</td>
 			<td>K</td>
 			<td
-				>To (U)96,<br />From (U)552,<br />Acknowledge TOI at 0050 hours, Requesting for its delay,<br
+				>To (U)96,<br />From (U)552,<br />Requesting TOI Delay by 10 minutes,<br
 				/>Awaiting reply.</td
 			>
 		</tr>
