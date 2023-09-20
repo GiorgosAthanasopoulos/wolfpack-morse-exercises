@@ -16,7 +16,7 @@
 <div>
 	<h1>Wolfpack Morse Syntax</h1>
 
-	<Toc/>
+	<Toc />
 	<PdfDownloads />
 	<Sources />
 	<CommonCommands />
